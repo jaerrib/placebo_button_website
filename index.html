@@ -14,7 +14,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
+        <div class="container ">
             <a class="navbar-brand text-primary" href="#top">PLACEB0_BUTT0N</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -23,13 +23,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#music">Music</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#music">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#opensource">Open_Source</a>
                     </li>
@@ -53,25 +56,24 @@
         <section class="py-5 text-center container" id="top">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">New single!</h1>
-                    <iframe title="Placebo_Button &quot;Zukunftstanz&quot;"
-                        src="https://peertube.linuxrocks.online/videos/embed/b847522f-ad50-4c81-93f4-10df7a2319ed"
-                        allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560"
-                        height="315" frameborder="0"></iframe>
-                    <p class="lead text-body-secondary">Released 7 Apr 2023</p>
+                    <h1 class="fw-light">New album!</h1>
+                    <iframe style="border: 0; width: 350px; height: 588px;"
+                        src="https://bandcamp.com/EmbeddedPlayer/album=3902981597/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+                        seamless><a href="https://eg0cide.bandcamp.com/album/synthetic-baroque">Synthetic_Baroque by
+                            Placebo_Button</a></iframe>
+                    <p class="lead text-body-secondary">Released 22 Apr 2023</p>
                     <p>
-                        <a href="https://placebobutton.bandcamp.com/album/zukunftstanz"
+                        <a href="https://eg0cide.com/2023/04/22/placebo_button-synthetic_baroque-eg0_258/"
+                            class="btn btn-primary my-2">Eg0cide</a>
+                        <a href="https://eg0cide.bandcamp.com/album/synthetic-baroque"
                             class="btn btn-primary my-2">Bandcamp</a>
-                        <a href="https://archive.org/details/01-placebo-button-zukunftstanz"
-                            class="btn btn-primary my-2">Archive.org</a>
-                        <a href="https://open.audio/channels/placebobutton/" class="btn btn-primary my-2">Funkwhale</a>
-                        <a href="https://libre.fm/artist/Placebo+Button/album/Zukunftstanz"
-                        class="btn btn-primary my-2">Libre.fm</a>
+                        <a href="https://archive.org/details/eg0_258" class="btn btn-primary my-2">Archive.org</a>
                     </p>
                 </div>
             </div>
         </section>
         <!-- End Recent -->
+
         <!-- Music -->
         <div class="album py-5 bg-body-tertiary" id="music">
             <div class="container">
@@ -85,10 +87,13 @@
                             <title>Placeholder</title>
                             <div class="card-body">
                                 <p class="card-text">Synthetic Baroque</p>
-                                <p class="text-body-secondary">Full-length four-track album to be released by <a
-                                        href="https://eg0cide.com/">Eg0cide Productions</a>
+                                <p class="text-body-secondary">Full-length four-track album! Available from: <a
+                                        href="https://eg0cide.com/2023/04/22/placebo_button-synthetic_baroque-eg0_258/">Eg0cide
+                                        Productions</a> (Archive.org with a <a
+                                        href="https://eg0cide.com/2023/04/22/placebo_button-synthetic_baroque-eg0_258/">Bandcamp</a>
+                                    mirror)
                                 </p>
-                                <small class="text-body-secondary">...coming soon</small>
+                                <small class="text-body-secondary">Released 22 Apr 2023</small>
                             </div>
                         </div>
                     </div>
@@ -135,6 +140,18 @@
 
         <!-- End Music -->
 
+        <!-- Video -->
+        <div class="container my-5" id="video">
+            <hr>
+            <h1>Video</h1>
+            <iframe title="Placebo_Button &quot;Zukunftstanz&quot;"
+                src="https://peertube.linuxrocks.online/videos/embed/b847522f-ad50-4c81-93f4-10df7a2319ed"
+                allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315"
+                frameborder="0"></iframe>
+        </div>
+        <!-- End Video -->
+
+
         <!-- About -->
         <div class="container my-5" id="about">
             <hr>
@@ -163,38 +180,48 @@
             </div>
         </div>
         <!-- End About -->
-        
+
         <!-- Open Source -->
         <div class="container my-5" id="opensource">
             <hr>
             <h1>Open source</h1>
             <div class="col-lg-8 px-0">
-                <p class="fs-5">Open source philosophy is at the core of this project. From the software used in its creation to the license used for the audio itself. Here are some of the ones I use:</p>
+                <p class="fs-5">Open source philosophy is at the core of this project. From the software used in its
+                    creation to the license used for the audio itself. Here are some of the ones I use:</p>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="https://codeberg.org/jaerrib/image2sound">image2sound</a> - Python utility to convert images to audio</li>
-                    <li class="list-group-item"><a href="https://www.audacityteam.org/">Audacity</a> - audio editing</li>
+                    <li class="list-group-item"><a href="https://codeberg.org/jaerrib/image2sound">image2sound</a> -
+                        Python utility to convert images to audio</li>
+                    <li class="list-group-item"><a href="https://www.audacityteam.org/">Audacity</a> - audio editing
+                    </li>
                     <li class="list-group-item"><a href="https://inkscape.org/">Inkscape</a> - vector image editing</li>
                     <li class="list-group-item"><a href="https://obsproject.com/">OBS Studio</a> - video capture</li>
-                    <li class="list-group-item"><a href="https://github.com/fsobolev/cavalier">Cavalier</a> - audio visualizer</li>
-                    <li class="list-group-item"><a href="https://joinpeertube.org/">Peertube</a> - decentralized video sharing</li>
-                    <li class="list-group-item"><a href="https://joinmastodon.org/">Mastodon</a> - decentralized social network</li>
-                    <li class="list-group-item"><a href="https://funkwhale.audio/">Funkwhale</a> - decentralized music sharing</li>
+                    <li class="list-group-item"><a href="https://github.com/fsobolev/cavalier">Cavalier</a> - audio
+                        visualizer</li>
+                    <li class="list-group-item"><a href="https://joinpeertube.org/">Peertube</a> - decentralized video
+                        sharing</li>
+                    <li class="list-group-item"><a href="https://joinmastodon.org/">Mastodon</a> - decentralized social
+                        network</li>
+                    <li class="list-group-item"><a href="https://funkwhale.audio/">Funkwhale</a> - decentralized music
+                        sharing</li>
                 </ul>
             </div>
         </div>
         <!-- End Open Source -->
-        
+
     </main>
-    
+
     <!-- Footer -->
     <footer class="footer mt-auto py-3 bg-body-tertiary">
         <div class="container">
             <hr>
-            <p class="text-center"><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="img/by-sa.svg" alt="CC BY-SA" height="24"></a></p>
+            <p class="text-center"><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="img/by-sa.svg"
+                        alt="CC BY-SA" height="24"></a></p>
         </div>
     </footer>
     <!-- End Footer -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
