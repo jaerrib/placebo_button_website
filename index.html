@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Placebo Button</title>
+    <meta name="keywords" content="experimental, ambient, generative music, process music, computer music, python">
+    <meta name="description" content="Placebo Button: experimental ambient">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <title>Placebo Button</title>
 </head>
 
 <body>
@@ -23,7 +25,6 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#music">Music</a>
                     </li>
@@ -38,7 +39,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://mastodon.social/@johnbeers">Social</a>
-                    </li>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="mailto:jaerrib@tutanota.com">Email</a>
@@ -55,19 +55,16 @@
         <section class="py-5 text-center container" id="top">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">New album!</h1>
-                    <iframe style="border: 0; width: 350px; height: 588px;"
-                        src="https://bandcamp.com/EmbeddedPlayer/album=3902981597/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
-                        seamless><a href="https://eg0cide.bandcamp.com/album/synthetic-baroque">Synthetic_Baroque by
-                            Placebo_Button</a></iframe>
-                    <p class="lead text-body-secondary">Released 22 Apr 2023</p>
+                    <h1 class="fw-light">New single!</h1>
+                    <h2>Revelation Zero</h2>
+                    <p class="text-secondary">Includes the <a href=https://radiofreefedi.net/">Radio Free Fedi</a> cut!</p>
+                    <p class="lead text-body-secondary">Released 4 Aug 2023</p>
                     <p>
-                        <a href="https://eg0cide.com/2023/04/22/placebo_button-synthetic_baroque-eg0_258/"
-                            class="btn btn-primary my-2">Eg0cide</a>
-                        <a href="https://placebobutton.bandcamp.com/album/synthetic-baroque"
+                        <a href="https://placebobutton.bandcamp.com/album/revelation-zero"
                             class="btn btn-primary my-2">Bandcamp</a>
-                        <a href="https://archive.org/details/eg0_258" class="btn btn-primary my-2">Archive.org</a>
-                        <a href="https://open.audio/library/albums/19341/" class="btn btn-primary my-2">Funkwhale</a>
+                        <a href="#" class="btn btn-secondary my-2 disabled">Archive.org</a>
+                        <a href="#" class="btn btn-secondary my-2 disabled">Funkwhale</a>
+                        <a href="#" class="btn btn-secondary my-2 disabled">Libre.fm</a>
                     </p>
                 </div>
             </div>
@@ -75,7 +72,7 @@
         <!-- End Recent -->
 
         <!-- Music -->
-        <div class="album py-5 bg-body-tertiary" id="music">
+        <section class="album py-5 bg-body-tertiary" id="music">
             <div class="container">
                 <hr>
                 <h1>Music</h1>
@@ -83,12 +80,28 @@
 
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="img/Synthetic_Baroque-cover.png" alt="Synthetic Baroque artwork">
+                            <img src="img/Revelation_Zero-cover.jpg" alt="Revelation Zero artwork">
+                            <title>Placeholder</title>
+                            <div class="card-body">
+                                <p class="card-text">Revelation Zero</p>
+                                <p class="text-body-secondary">The first track to be created with the "reveal" mode built into <a href="https://codeberg.org/jaerrib/image2sound">image2sound 0.5</a>. Includes the edited cut heard as on <a href=https://radiofreefedi.net/">Radio Free Fedi</a>!</p>
+                                <p class="text-body-secondary">Available from: <a href="https://placebobutton.bandcamp.com/album/revelation-zero">Bandcamp</a>
+                                    <!--, <a href="#">Archive.org</a>-->
+                                    <!--and <a href="#">Funkwhale (Open.audio)</a>-->
+                                </p>
+                                <small class="text-body-secondary">Released 4 Aug 2023</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="img/Synthetic_Baroque-cover.jpg" alt="Synthetic Baroque artwork">
                             <title>Placeholder</title>
                             <div class="card-body">
                                 <p class="card-text">Synthetic Baroque</p>
-                                <p class="text-body-secondary">Full-length four-track album! Available from: <a
-                                        href="https://placebobutton.bandcamp.com/album/synthetic-baroque">Bandcamp</a>,
+                                <p class="text-body-secondary">Full-length four-track album!</p>
+                                <p class="text-body-secondary">Available from: <a href="https://placebobutton.bandcamp.com/album/synthetic-baroque">Bandcamp</a>,
                                     <a href="https://eg0cide.com/2023/04/22/placebo_button-synthetic_baroque-eg0_258/">Eg0cide
                                         Productions</a>, <a href="https://archive.org/details/eg0_258">Archive.org</a>
                                     and <a href="https://open.audio/library/albums/19341/">Funkwhale (Open.audio)</a>
@@ -104,12 +117,11 @@
                             <title>Placeholder</title>
                             <div class="card-body">
                                 <p class="card-text">Zukunftstanz</p>
-                                <p class="text-body-secondary">The second single from PLACEB0_BUTT0N. Available from: <a
-                                        href="https://placebobutton.bandcamp.com/album/zukunftstanz">Bandcamp</a>,
-                                    <a
-                                        href="https://archive.org/details/01-placebo-button-zukunftstanz">Archive.org</a>,
+                                <p class="text-body-secondary">The second single from PLACEB0_BUTT0N.</p>
+                                <p class="text-body-secondary">Available from: <a href="https://placebobutton.bandcamp.com/album/zukunftstanz">Bandcamp</a>,
+                                    <a href="https://archive.org/details/01-placebo-button-zukunftstanz">Archive.org</a>,
                                     <a href="https://open.audio/channels/placebobutton/">Funkwhale (Open.audio)</a> and
-                                    </a><a href="https://libre.fm/artist/Placebo+Button/album/Zukunftstanz">Libre.fm</a>
+                                    <a href="https://libre.fm/artist/Placebo+Button/album/Zukunftstanz">Libre.fm</a>
                                 </p>
                                 <small class="text-body-secondary">Released 7 Apr 2023</small>
                             </div>
@@ -118,40 +130,40 @@
 
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="img/Prelude_No_1-cover.png" alt="Prelude No. 1 artwork">
+                            <img src="img/Prelude_No_1-cover.jpg" alt="Prelude No. 1 artwork">
                             <title>Placeholder</title>
                             <div class="card-body">
                                 <p class="card-text">Prelude No. 1 in G major</p>
-                                <p class="text-body-secondary">The first single from PLACEB0_BUTT0N. Available from: <a
-                                        href="https://placebobutton.bandcamp.com/track/prelude-no-1-in-g-major">Bandcamp</a>,
-                                    <a
-                                        href="https://archive.org/details/placebo-button-prelude-no.-1-in-g-major">Archive.org</a>,
+                                <p class="text-body-secondary">The first single from PLACEB0_BUTT0N.<p>
+                                <p class="text-body-secondary">Available from: <a href="https://placebobutton.bandcamp.com/track/prelude-no-1-in-g-major">Bandcamp</a>,
+                                    <a href="https://archive.org/details/placebo-button-prelude-no.-1-in-g-major">Archive.org</a>,
                                     <a href="https://open.audio/channels/placebobutton/">Funkwhale (Open.audio)</a> and
-                                    </a><a
-                                        href="https://libre.fm/artist/Placebo+Button/album/Prelude+No.+1+in+G+major">Libre.fm</a>
+                                    <a href="https://libre.fm/artist/Placebo+Button/album/Prelude+No.+1+in+G+major">Libre.fm</a>
                                 </p>
                                 <small class="text-body-secondary">Released 18 Feb 2023</small>
                             </div>
                         </div>
                     </div>
                 </div>
+            <p class="mt-3"><a href="#top">[Top]</a></p>
             </div>
-        </div>
+        </section>
         <!-- End Music -->
 
         <!-- Video -->
-        <div class="container my-5" id="video">
+        <section class="container my-5" id="video">
             <hr>
             <h1>Video</h1>
             <iframe title="Placebo_Button &quot;Zukunftstanz&quot;"
                 src="https://peertube.linuxrocks.online/videos/embed/b847522f-ad50-4c81-93f4-10df7a2319ed"
                 allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups" width="560" height="315"
                 frameborder="0"></iframe>
-        </div>
+            <p class="mt-3"><a href="#top">[Top]</a></p>
+        </section>
         <!-- End Video -->
 
         <!-- About -->
-        <div class="container my-5" id="about">
+        <section class="container my-5" id="about">
             <hr>
             <h1>About this project</h1>
             <div class="col-lg-8 px-0">
@@ -176,34 +188,32 @@
                     art, is functionless. However, as beauty is in the eye of the beholder, sonic art is determined by
                     the ear of the listener. Decide for yourself.</p>
             </div>
-        </div>
+            <p class="mt-3"><a href="#top">[Top]</a></p>
+        </section>
         <!-- End About -->
 
         <!-- Open Source -->
-        <div class="container my-5" id="opensource">
+        <section class="container my-5" id="opensource">
             <hr>
             <h1>Open source</h1>
             <div class="col-lg-8 px-0">
                 <p class="fs-5">Open source philosophy is at the core of this project. From the software used in its
                     creation to the license used for the audio itself. Here are some of the ones I use:</p>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="https://codeberg.org/jaerrib/image2sound">image2sound</a> -
-                        Python utility to convert images to audio</li>
-                    <li class="list-group-item"><a href="https://www.audacityteam.org/">Audacity</a> - audio editing
-                    </li>
+                    <li class="list-group-item"><a href="https://codeberg.org/jaerrib/image2sound">image2sound</a> - Python utility to convert images to audio</li>
+                    <li class="list-group-item"><a href="https://fedoraproject.org/silverblue/">Fedora Silverblue</a> - Immutable desktop Linux distribution</li>
+                    <li class="list-group-item"><a href="https://www.audacityteam.org/">Audacity</a> - audio editing</li>
                     <li class="list-group-item"><a href="https://inkscape.org/">Inkscape</a> - vector image editing</li>
+                    <li class="list-group-item"><a href="https://gimp.org/">GIMP</a> - image editing</li>
                     <li class="list-group-item"><a href="https://obsproject.com/">OBS Studio</a> - video capture</li>
-                    <li class="list-group-item"><a href="https://github.com/fsobolev/cavalier">Cavalier</a> - audio
-                        visualizer</li>
-                    <li class="list-group-item"><a href="https://joinpeertube.org/">Peertube</a> - decentralized video
-                        sharing</li>
-                    <li class="list-group-item"><a href="https://joinmastodon.org/">Mastodon</a> - decentralized social
-                        network</li>
-                    <li class="list-group-item"><a href="https://funkwhale.audio/">Funkwhale</a> - decentralized music
-                        sharing</li>
+                    <li class="list-group-item"><a href="https://github.com/fsobolev/cavalier">Cavalier</a> - audio visualizer</li>
+                    <li class="list-group-item"><a href="https://joinpeertube.org/">Peertube</a> - decentralized video sharing</li>
+                    <li class="list-group-item"><a href="https://joinmastodon.org/">Mastodon</a> - decentralized social network</li>
+                    <li class="list-group-item"><a href="https://funkwhale.audio/">Funkwhale</a> - decentralized music sharing</li>
                 </ul>
             </div>
-        </div>
+            <p class="mt-3"><a href="#top">[Top]</a></p>
+        </section>
         <!-- End Open Source -->
 
     </main>
@@ -212,6 +222,7 @@
     <footer class="footer mt-auto py-3 bg-body-tertiary">
         <div class="container">
             <hr>
+            <p class="text-center">All content is licensed as <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike</a></p>
             <p class="text-center"><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="img/by-sa.svg"
                         alt="CC BY-SA" height="24"></a></p>
         </div>
